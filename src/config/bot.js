@@ -38,10 +38,7 @@ export const botConfig = {
   commands: {
     // Bot owner user IDs (comma-separated in OWNER_IDS env var).
     // Owners can access owner/admin-level bot commands.
-    tradingworks: process.env.OWNER_IDS?.split(",") || [MIDDLEMAN WORKS 🤝
-1ST IM GONNA HOLD BOTH STUFF 1BY1 SO TO AVOID STEALING ⛔
-2ND AFTER I HOLD THE FIRST GUY THE SECOND GUY WILL JOIN AND IM GONNA HOLD ✊
-3RD AFTER I DONE HOLD BOTH OF YOU WAIT ON MY BASE AND THEN I ALLOW SO YOU WILL TAKE 1BY1 FROM MY BASE],
+    owner: process.env.OWNER_IDS?.split(",") || [],
 
     // Default wait time between command uses (in seconds).
     defaultCooldown: 3, 
@@ -267,7 +264,10 @@ export const botConfig = {
     maximumDuration: 2592000000, 
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    mmworks: [MIDDLEMAN WORKS 🤝
+1ST IM GONNA HOLD BOTH STUFF 1BY1 SO TO AVOID STEALING ⛔
+2ND AFTER I HOLD THE FIRST GUY THE SECOND GUY WILL JOIN AND IM GONNA HOLD ✊
+3RD AFTER I DONE HOLD BOTH OF YOU WAIT ON MY BASE AND THEN I ALLOW SO YOU WILL TAKE 1BY1 FROM MY BASE],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
